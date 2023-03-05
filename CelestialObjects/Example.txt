@@ -1,0 +1,158 @@
+@object {
+    @info {
+        @designation {
+            object-name: "Solar System"
+        }
+        @astronomical {
+            object-type: SYSTEM
+            object-system-type: SINGLE
+        }
+    }
+    @description {
+        @text {
+            object-description-text: "Humans Stellar System Located at Orion-Cygnus Arm of Milky Way Galaxy"
+        }
+        @references {
+            @links {
+                reference-link-1: "https://en.wikipedia.org/wiki/Solar_System"
+            }
+            @articles_and_books {
+                @NULL
+            }
+        }
+    }
+    @additional {
+        @stars {
+            @star[1] {
+                @info {
+                    @designation {
+                        object-name: "Sun"
+                        object-abbreviation: "S"
+                        object-callsign-1: "Sol"
+                        object-callsign-2: "Helios"
+                    }
+                    @astronomical {
+                        object-type: STAR
+                        object-star-type: G2V
+                    }
+                    @physical {
+                        object-physical-radius-polar: 695700000[METRE]
+                        object-physical-radius-equatorial: 696342000[METRE]
+                        object-physical-mass: 1.9885*10^30[KILOGRAM]
+                        object-physical-density-mean: 1.408[GRAM/CENTIMETRE^3]
+                        object-physical-density-center: 162.2[GRAM/CENTIMETRE^3]
+                        object-physical-gravity: 274[METRE/SECOND^2]
+                        object-physical-velocity-escape: 617.7[KILOMETRE/SECOND]
+                        object-physical-temperature-center: 1.57×10^7[CELSIUS]
+                        object-physical-temperature-photosphere: 5498.85[CELSIUS]
+                        object-physical-temperature-corona: 5*10^6[CELSIUS]
+                        object-physical-luminosity: 3.828×10^26[WATT]
+                        object-physical-color-bv: 0.63
+                        object-physical-age: 4.6*10^9[YEARS]
+                    }
+                    @photosphere {
+                        @composition {
+                            @element[1] {
+                                element-name: "Hydrogen"
+                                element-measure: 73.46%
+                            }
+                            @element[2] {
+                                element-name: "Helium"
+                                element-measure: 24.85%
+                            }
+                            @element[3] {
+                                element-name: "Oxygen"
+                                element-measure: 0.77%
+                            }
+                            @element[4] {
+                                element-name: "Carbon"
+                                element-measure: 0.29%
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @satellites {
+            @planet[3] {
+                @info {
+                    @designation {
+                        object-name: "Earth"
+                        object-abbreviation: "E"
+                        object-callsign-1: "Gaia"
+                        object-callsign-2: "World"
+                        object-callsign-3: "Globe"
+                        object-callsign-4: "Tellus"
+                        object-callsign-5: "Prithvi"
+                    }
+                    @astronomical {
+                        object-type: PLANET
+                        object-planet-type: ROCK
+                    }
+                    @orbit {
+                        object-planet-orbit-aphelion: 152097597[KILOMETRE]
+                        object-planet-orbit-perihelion: 147098450[KILOMETRE]
+                        object-planet-orbit-eccentricity: 0.0167086
+                        object-planet-orbit-period-sidereal: 365.256363004[DAY]
+                        object-planet-orbit-speed-average: 29.7827[KILOMETRE/SECOND]
+                        object-planet-orbit-anomaly-mean: 358.617[DEGREE]
+                        object-planet-orbit-inclination-star-equator: 7.155[DEGREE]
+                        object-planet-orbit-inclination-invariable-plane: 1.57869[DEGREE]
+                    }
+                    @physical {
+                        object-physical-radius-mean: 6371000[METRE]
+                        object-physical-radius-polar: 6356752[METRE]
+                        object-physical-radius-equatorial: 6378137[METRE]
+                        object-physical-circumference-equatorial: 40075017[METRE]
+                        object-physical-circumference-meridional: 40007860[METRE]
+                        object-physical-mass: 5.972168*10^24[KILOGRAM]
+                        object-physical-density-mean: 5.5134[GRAM/CENTIMETRE^3]
+                        object-physical-gravity: 9.80665[METRE/SECOND^2]
+                        object-physical-velocity-escape: 11.186[KILOMETRE/SECOND]
+                        object-physical-rotation-period-synodic: 1[DAY]
+                        object-physical-rotation-period-sidereal: 0.99726968[DAY]
+                        object-physical-rotation-velocity: 0.4651[KILOMETRE/SECOND]
+                        object-physical-axial-tilt: 23.4392811[DEGREE]
+                        object-physical-albedo-geometric: 0.367
+                        object-physical-albedo-bond: 0.306
+                        object-physical-temperature-mean: 14.76[CELSIUS]
+                        object-physical-temperature-min: −89.2[CELSIUS]
+                        object-physical-temperature-max: 56.7[CELSIUS]
+                    }
+                    @atmosphere {
+                        object-planet-atmosphere-pressure: 101.325[KILOPASCAL]
+                        @composition {
+                            @element[1] {
+                                element-name: "Nitrogen"
+                                element-measure: 78.08%
+                            }
+                            @element[2] {
+                                element-name: "Oxygen"
+                                element-measure: 20.95%
+                            }
+                        }
+                    }
+                    @satellites {
+                        @moon[1] {
+
+                        }
+                        @satellite[1] {
+                            @info {
+                                @designation {
+                                    object-name: "International Space Station"
+                                    object-abbreviation: "ISS"
+                                    object-callsign-1: "Alpha"
+                                    object-callsign-2: "Station"
+                                }
+                                @astronomical {
+                                    object-type: SATELLITE
+                                    object-satellite-type: SPACESTATION
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}                                                                                    
