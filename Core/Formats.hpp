@@ -32,12 +32,20 @@
                 Zettasecond = 11
             };
             //-- Date Formats
-            enum DateFormats : std::int8_t {
-
+            enum DateFormats : std::uint8_t {
+                MMDDYY = 0, // Month, Day, Year
+                DDMMYY = 1, // Day, Month, Year
+                YYMMDD = 2, // Year, Month, Day
+                MonthDDYY = 3 // Month Name, Day, Year
             };
             //-- Calendar Formats
-            enum CalendarFormats : std::int8_t {
-
+            enum CalendarFormats : std::uint8_t {
+                Julian = 0,
+                Hebrew = 1,
+                Chinese = 2,
+                Gregorian = 3,
+                SolarHijiri = 4,
+                LunarHijiri = 5
             };
         # else
             //-- Time Formats
@@ -57,12 +65,24 @@
             };
             //-- Date Formats
             enum DateFormats {
-
+                MMDDYY, // Month, Day, Year
+                DDMMYY, // Day, Month, Year
+                YYMMDD, // Year, Month, Day
+                MonthDDYY // Month Name, Day, Year
             };
             //-- Calendar Formats
             enum CalendarFormats {
-
+                Julian,
+                Hebrew,
+                Chinese,
+                Gregorian, 
+                SolarHijiri,
+                LunarHijiri
             };
         # endif // Compiler
+        //-- Default Formats
+        volatile int DEFAULT_TIME = Second;
+        volatile int DEFAULT_DATE = YYMMDD;
+        volatile int DEFAULT_CALENDAR = Gregorian;
     } // Namespace qssl
 # endif // __QSSL_FORMATS
