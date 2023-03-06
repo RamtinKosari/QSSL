@@ -11,7 +11,7 @@
      * @date 2023-03-06
      */
     # define __QSSL_CONFIGS
-    //-- Graphics
+    //-- Graphics Configs
     /**
      * @brief Usage Status of Graphical View Methodes
      * @param true Makes Graphical View Enable
